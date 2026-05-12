@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Layout CSS</title>
+  <style>
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      margin: 0;
+      font-family: Arial;
+    }
+
+    /* Header */
+    .header {
+      background-color: lightblue;
+      padding: 20px;
+      text-align: center;
+      font-size: 25px;
+    }
+
+    /* Container baris */
+    .row {
+      display: flex;
+    }
+
+    /* Kolom */
+    .column {
+      flex: 33.33%;
+      padding: 20px;
+      height: 200px;
+    }
+
+    .col1 { background-color: lightcoral; }
+    .col2 { background-color: lightgreen; }
+    .col3 { background-color: lightyellow; }
+
+    /* Footer */
+    .footer {
+      background-color: lightgray;
+      padding: 15px;
+      text-align: center;
+    }
+  </style>
+</head>
+
+<body>
+
+<div class="header">
+  Header
+</div>
+
+<div class="row">
+  <div class="column col1">Kolom 1</div>
+  <div class="column col2">Kolom 2</div>
+  <div class="column col3">Kolom 3</div>
+</div>
+
+<div class="footer">
+  Footer
+</div>
+
+</body>
+</html>
